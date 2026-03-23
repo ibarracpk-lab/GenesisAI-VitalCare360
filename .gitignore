@@ -1,0 +1,17 @@
+# Ignorar basura del sistema
+$RECYCLE.BIN/
+System Volume Information/
+Thumbs.db
+*.exe
+*.dll
+
+# Ignorar entornos virtuales de Python (los que pesan mucho)
+venv/
+.venv/
+env/
+
+# Ignorar carpetas de construcción de Android
+.gradle/
+build/
+app/build/
+local.properties
